@@ -1,0 +1,37 @@
+Stacks:
+
+The stack is a linear data structure that is used to store the
+collection of objects. It is based on Last-In-First-Out (LIFO).
+
+The stack data structure has the two most important operations that
+are push and pop. The push operation inserts an element into the stack
+and pop operation removes an element from the top of the stack.
+
+Empty Stack: If the stack has no element is known as an empty stack. When
+the stack is empty the value of the top variable is -1.
+
+When we push an element into the stack the top is increased by 1. In the
+following figure,
+
+Push 12, top=0
+Push 6, top=1
+Push 9, top=2
+
+Top Value:         Meaning:
+-1                 Stack is empty
+0                  Stack has only an element
+N - 1              Top element of the stack/Stack is full
+N                  Stack is overflow
+
+Methods of the Stack Class
+We can perform push, pop, peek and search operation on the stack. The Java
+Stack class provides mainly five methods to perform these operations. Along
+with this, it also provides all the methods of the Java Vector class.
+
+Method:             Modifier/Type:   Description:
+empty()             [boolean]        The method checks the stack is empty or not.
+push(E item)        E                The method pushes an element onto the top of the stack.
+pop()               E                The method removes the element at the top of the stack and returns it.
+peek()              E                The method looks at the element at the top of the stack without removing it.
+search(Object o)    int              The method searches the element in the stack and returns its position.
+size()              int              The method returns the number of elements in the stack.
